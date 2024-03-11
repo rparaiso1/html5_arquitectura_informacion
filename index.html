@@ -32,11 +32,13 @@
       <section id="introduccion">
         <h2>Introduccion</h2>
         <article>
-          Segovia, ciudad de leyendas y conquistas, donde el tiempo parece
-          detenerse entre los arcos del Acueducto y las torres del Alcázar. Con
-          una historia que se remonta a siglos atrás, cada rincón de Segovia
-          cuenta una historia de civilizaciones pasadas y glorias perdidas,
-          dejando una huella imborrable en el corazón de España.
+          <p>
+            Segovia, ciudad de leyendas y conquistas, donde el tiempo parece
+            detenerse entre los arcos del Acueducto y las torres del Alcázar.
+            Con una historia que se remonta a siglos atrás, cada rincón de
+            Segovia cuenta una historia de civilizaciones pasadas y glorias
+            perdidas, dejando una huella imborrable en el corazón de España.
+          </p>
         </article>
         <img
           src="https://estaticos-cdn.prensaiberica.es/clip/0b8306e6-c541-4114-b4a0-60c670e148b4_16-9-aspect-ratio_default_0.jpg"
@@ -98,27 +100,28 @@
     </main>
     <div>
       <aside>
-        <em>
-          Si tienes la oportunidad, no dudes en descubrir Segovia, ubicada a tan
-          solo 90 kilómetros de la capital. Esta encantadora ciudad te cautivará
-          con su encanto histórico y te transportará a épocas pasadas. Muchos
-          madrileños eligen escapar del bullicio de la gran ciudad y encontrar
-          un refugio en Segovia.</em
-        >
+        <p>
+          <em>
+            Si tienes la oportunidad, no dudes en descubrir Segovia, ubicada a
+            tan solo 90 kilómetros de la capital. Esta encantadora ciudad te
+            cautivará con su encanto histórico y te transportará a épocas
+            pasadas. Muchos madrileños eligen escapar del bullicio de la gran
+            ciudad y encontrar un refugio en Segovia.</em
+          >
+        </p>
       </aside>
     </div>
 
     <h3>Para mas informacion, rellene el formulario</h3>
 
     <form action="envio_info.php" method="post">
-      <!-- No estoy sewguro de que todo tenga que ir dentro del parrrafo -->
-      <p>
-        <input type="text" placeholder="Nombre" />
-        <input type="email" name="correo" placeholder="Correo Electronico" />
-        <input type="submit" value="Enviar" />
-        <input type="checkbox" name="condicion" required />
-        Acepto las Bases del Programa y la Política de Privacidad.
-      </p>
+      <input type="text" placeholder="Nombre" />
+      <input type="email" name="correo" placeholder="Correo Electronico" />
+      <input type="submit" value="Enviar" />
+      <input type="checkbox" name="condicion" required />
+      <label for="condicion"
+        >Acepto las Bases del Programa y la Política de Privacidad.</label
+      >
     </form>
 
     <footer>
